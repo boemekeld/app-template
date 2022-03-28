@@ -41,8 +41,4 @@ jobs:
         env:
           DEPLOY_PATH: './'
           PUBLIC_PATH: './public'
-          SITE_NAME: 'pair-programming-test.bohr.io'
-          BRANCH: 'main'
-          OWNER: 'boemekeld'
-          REPOSITORY: 'app-template'
           BOHR_TOKEN: ${{ secrets.BOHR_TOKEN }}
